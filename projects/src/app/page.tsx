@@ -326,7 +326,7 @@ export default function SelectPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 dark:from-gray-900 dark:via-purple-900 dark:to-gray-900">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-yellow-50 to-yellow-50 dark:from-gray-900 dark:via-purple-900 dark:to-gray-900">
       {/* 顶部进度条 */}
       <div className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700">
         <div className="max-w-2xl mx-auto px-4 py-3">
@@ -395,7 +395,7 @@ export default function SelectPage() {
           <div className="inline-flex items-center justify-center w-28 h-28 rounded-full bg-gradient-to-br from-pink-400 via-purple-500 to-indigo-500 shadow-2xl mb-6 ring-4 ring-pink-200 dark:ring-pink-900/50 animate-bounce">
             <Heart className="w-14 h-14 text-white animate-pulse" />
           </div>
-          <h1 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent mb-4 drop-shadow-sm">
+          <h1 className="text-5xl md:text-6xl font-black text-purple-600 mb-4 drop-shadow-sm">
             哄哄模拟器
           </h1>
           <div className="inline-block bg-gradient-to-r from-pink-100 to-purple-100 dark:from-pink-900/50 dark:to-purple-900/50 rounded-full px-6 py-3 border-2 border-pink-300 dark:border-pink-700">
